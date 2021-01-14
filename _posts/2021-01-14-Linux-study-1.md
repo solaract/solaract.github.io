@@ -6,7 +6,7 @@ tags: [Linux,Vbird Linux]
 ### 硬件在Linux中的文件名
 在Linux系統中，每个硬件都被当作一个文件
 | 硬件 | Linux中的文件名 |
-| ---- | ---- |
+| :---- | :---- |
 |SCSI/SATA/USB硬盘|/dev/sd[a-p]|
 |USB FLASH|/dev/sd[a-p]（与SATA相同）|
 |VirtI/O界面|/dev/vd[a-p] (用于虚拟机内)|
