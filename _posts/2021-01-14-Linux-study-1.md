@@ -5,6 +5,7 @@ tags: [Linux,Vbird Linux]
 ---
 ### 硬件在Linux中的文件名
 在Linux系統中，每个硬件都被当作一个文件
+
 | 硬件 | Linux中的文件名 |
 | :---- | :---- |
 |SCSI/SATA/USB硬盘|/dev/sd[a-p]|
@@ -16,6 +17,7 @@ tags: [Linux,Vbird Linux]
 |CDROM/DVDROM|/dev/scd[0-1] (通用)<br>/dev/sr[0-1] (通用，CentOS 较常见)<br>/dev/cdrom (当前 CDROM)|
 |磁带机|/dev/ht0 (IDE 界面)<br>/dev/st0 (SATA/SCSI界面)<br>/dev/tape (当前磁带)|
 |IDE硬盘|/dev/hd[a-d] (旧系统)|
+
 - 一般实体机器使用的都是/dev/sd[a-]的文件名，虚拟机环境下，为了加速可能会使用/dev/vd[a-p]
 - SATA/USB/SAS等磁盘都是使用SCSI模组驱动，因此文件名都是/dev/sd[a-p]形式，具体文件名由Linux核心检测到磁盘的顺序决定。
 
